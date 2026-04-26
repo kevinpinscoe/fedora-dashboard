@@ -1,6 +1,6 @@
-# Fedora Desktop Dashboard
+# Fedora Dashboard
 
-A live, customizable dashboard container for monitoring the health and status of a Fedora Linux development desktop workstation and its associated services.
+A live, customizable dashboard container for monitoring the health and status of a Fedora Linux development workstation and its associated services.
 
 ## Project Goals
 
