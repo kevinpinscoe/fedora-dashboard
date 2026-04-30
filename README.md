@@ -1,12 +1,28 @@
 # Fedora Dashboard
 
+## Temporary workaround
+
+https://dashboard.kevininscoe.com/
+
+A live, customizable dashboard container for monitoring the health and status of a Fedora Linux development workstation and its associated services.
+
+### Homepage documentation links for configuring widgets:
+
+ - Settings: https://gethomepage.dev/configs/settings/
+ - Services (tiles): https://gethomepage.dev/configs/services/
+ - Info widgets (top bar): https://gethomepage.dev/configs/info-widgets/
+ - Bookmarks: https://gethomepage.dev/configs/bookmarks/
+ - Docker auto-discovery: https://gethomepage.dev/configs/docker/
+ - All service widgets (Gitea, n8n, OpenBao, etc.): https://gethomepage.dev/widgets/
+
+The key thing to know: edit the YAML files in /opt/container/dashboard/config/ — changes go live on next page refresh with no container restart
+  needed. Start with services.yaml to add your service tiles.
+
 A live, customizable dashboard container for monitoring the health and status of a Fedora Linux development workstation and its associated services.
 
 ## Project Goals
 
 The dashboard presents information across two primary views (tabs or menus), with more planned for the future.
-
----
 
 ## Tab 1: Daily Report
 
